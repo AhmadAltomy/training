@@ -266,7 +266,6 @@ const result3: number = add(1, 2, 3, 4); // Return type is a number
 const result4: number = add(1, 2, 3, 4, 5); // Return type is a number
 ```
 
-
 - Generics
     - Generics are used to create reusable components
     - Generics are used to create components that work with many types instead of a single type
