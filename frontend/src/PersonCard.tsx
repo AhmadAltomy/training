@@ -5,18 +5,18 @@ interface Person {
     isEmployed: boolean
 }
 
-
 // PersonCardProps type
 type PersonCardProps = {
     // Person props of type Person
     person: Person
     // hideCard props of type boolean (optional)
     hideCard?: boolean
-
 }
 
 // PersonCard component Taking in PersonCardProps as props
 function PersonCard(props: PersonCardProps) {
+
+
     // if hideCard is true, return null
     if (props.hideCard) return null
     // else return the PersonCard component

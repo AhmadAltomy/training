@@ -1,5 +1,23 @@
 # Todo List
 
+### Day 14 August 2023
+
+Reading resources:
+- [ ] [React Custom Hooks](https://www.bezkoder.com/react-custom-hook-typescript/)
+- [ ] [React Custom hooks](https://blog.bitsrc.io/step-by-step-guide-on-building-a-custom-react-hook-in-typescript-167e243045a4) 
+
+Tasks:
+- [ ] Use hooks in React (useState, useEffect, useMemo, useCallback) In Typescript
+- [ ] Create a custom hook in React
+  - Error handling hook (useError)
+    - It's create a state with error message and a function to set error message and function to check if has error and return it as array [hasError, errorMessage, setError]
+    - Has function (hasError, setError, clearError)
+  - Loading hook (useLoading)
+    - It's create a state with loading boolean and a function to set loading boolean and function to check if is loading and return it as array [isLoading, setLoading]
+    - Has function (isLoading, setLoading, resetLoading)
+  - Toggle hooks (useToggle)
+    - Toggle function included (isOn, toggle, setOn, setOff) as boolean and functions
+
 ### Day 13 August 2023
 
 Reading resources:

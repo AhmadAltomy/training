@@ -29,6 +29,7 @@ const persons: Person[] = [
 
 function App() {
 
+
     return (
         <div className="App">
             {persons.map((person, index) => (
