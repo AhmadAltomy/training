@@ -1,5 +1,20 @@
 # Todo List
 
+### Day 15 August 2023
+
+Reading resources:
+- [ ] [AntDesign](https://ant.design/docs/react/introduce)
+
+Tasks:
+- The project now includes Ant Design, To be sure that you understand it do the following tasks:
+- [ ] Create a new page and use Ant Design components: 
+- [ ] Use different types of typography (Title, Text, Paragraph)
+- [ ] Use different types of buttons (Primary, Secondary, Danger, Ghost, Link)
+- [ ] Use different types of inputs (Text, Password, Number, Email, TextArea)
+- [ ] Use Icons (Ant Design Icons) in buttons and inputs
+- [ ] Use Divider component
+
+
 ### Day 14 August 2023
 
 Reading resources:
