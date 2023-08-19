@@ -1,7 +1,19 @@
 # Todo List
 
-### Day 15 August 2023
+### Day 19 August 2023
+Reading resources:
+- [ ] [AntDesignLayout](https://ant.design/components/layout/)
+- [ ] [AntDesignGrid](https://ant.design/components/grid/)
+- [ ] [AntDesignSpace](https://ant.design/components/space/)
+- [ ] [AntDesignCard](https://ant.design/components/card/)
 
+Tasks:
+- [ ] Use Ant Design Layout components (Header, Footer, Sider, Content)
+- [ ] Use an Ant Design Grid system (Row, Col)
+- [ ] Use Ant Design Space component
+- [ ] Use Ant Design Card component
+
+### Day 15 August 2023
 Reading resources:
 - [ ] [AntDesign](https://ant.design/docs/react/introduce)
 

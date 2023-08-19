@@ -215,7 +215,7 @@ function Component() {
   imperative code using refs should be avoided in most cases. useImperativeHandle should be used with forwardRef.
 
 ```typescript
-import {useImperativeHandle, forwardRef} from "react"
+import {forwardRef, useImperativeHandle} from "react"
 
 function ChildComponent(props, ref) {
     useImperativeHandle(ref, () => ({
@@ -236,6 +236,39 @@ function ParentComponent() {
     const ref = useRef()
     return (
         <ChildComponent ref = {ref}
+    />
+)
+}
+
+
+function ReportsBottomSheet(props, ref) {
+    useImperativeHandle(ref, () => ({
+        // this function will be called when parent component call ref.current.open()
+        open: () => {
+            // When call this function from the parent component, we tell the bottom sheet to expand
+            bottomSheetRef.current.snapTo(0)
+            // or 
+            // bottomSheetRef.current.expand()
+        }
+    }))
+    const bottomSheetRef = useRef(null)
+    return (
+        <BottomSheet ref = {bottomSheetRef} >
+            // content        
+            </BottomSheet>
+    )
+}
+
+// it's important to use forwardRef to pass the ref to the child component
+ReportsBottomSheet = forwardRef(ReportsBottomSheet)
+
+function ParentComponent() {
+    const ref = useRef()
+    const openBottomSheet = () => {
+        ref.current.open()
+    }
+    return (
+        <ReportsBottomSheet ref = {ref}
     />
 )
 }
