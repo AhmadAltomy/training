@@ -4,7 +4,7 @@ interface CounterProps {
   initialCount: number;
 }
 
-const Counter: React.FC<CounterProps> = ({ initialCount }) => {
+const Counter2: React.FC<CounterProps> = ({ initialCount }) => {
   const [count, setCount] = useState<number>(initialCount);
 
   return (
@@ -15,4 +15,4 @@ const Counter: React.FC<CounterProps> = ({ initialCount }) => {
   );
 };
 
-export default Counter;
+export default Counter2;
