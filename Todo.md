@@ -1,5 +1,17 @@
 # Todo List
 
+### Day 20 August 2023
+Reading resources:
+- [ ] [React Router](https://reactrouter.com/en/main)
+- [ ] [React Router](https://www.youtube.com/watch?v=0cSVuySEB0A)
+
+
+Tasks:
+- [ ] Set up React Router in your application by installing and configuring the appropriate packages
+- [ ] Create three main components: Home, About, and Contact.
+- [ ] Implement basic routing using BrowserRouter, Route, and Link components for the Home, About, and Contact pages.
+- [ ] mplement a dynamic route that displays detailed information when clicked (e.g., a blog post).
+
 ### Day 19 August 2023
 Reading resources:
 - [ ] [AntDesignLayout](https://ant.design/components/layout/)
