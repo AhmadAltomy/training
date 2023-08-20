@@ -1,5 +1,18 @@
 # Todo List
 
+
+
+### Day 23 August 2023
+Reading resources:
+- [ ] [Zustand](https://legacy.reactjs.org/docs/context.html)
+
+
+Tasks:
+- [ ] Install Zustand using npm or yarn: npm install zustand or yarn add zustand
+- [ ] Create a store using Zustand to manage a piece of state. Define initial state and basic actions to update the state.
+- [ ] Use the useStore hook to access and display the state in a component.
+- [ ] Implement actions in the store that allow modifying the state in response to user interactions.
+
 ### Day 22 August 2023
 Reading resources:
 - [ ] [React Reducer](https://www.robinwieruch.de/react-usereducer-vs-usestate/)
