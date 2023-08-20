@@ -4,7 +4,7 @@
 
 ### Day 23 August 2023
 Reading resources:
-- [ ] [Zustand](https://legacy.reactjs.org/docs/context.html)
+- [ ] [Zustand](https://github.com/pmndrs/zustand)
 
 
 Tasks:
