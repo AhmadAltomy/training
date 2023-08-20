@@ -1,5 +1,19 @@
 # Todo List
 
+### Day 21 August 2023
+Reading resources:
+- [ ] [React Context](https://legacy.reactjs.org/docs/context.html)
+
+
+Tasks:
+- [ ]  Set up a simple component hierarchy with a parent component and child components.
+- [ ] Create a context using the createContext function.
+- [ ] Use the useContext hook to access and consume the context data in child components.
+- [ ] Implement a simple counter application using React Context to manage the count state across components.
+
+
+
+
 ### Day 20 August 2023
 Reading resources:
 - [ ] [React Router](https://reactrouter.com/en/main)
