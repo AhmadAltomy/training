@@ -1,5 +1,23 @@
 # Todo List
 
+### Day 22 August 2023
+Reading resources:
+- [ ] [React Reducer](https://www.robinwieruch.de/react-usereducer-vs-usestate/)
+
+
+Tasks:
+- [ ] Create a new React component called FormReducer that utilizes the useReducer hook to manage form state.
+- [ ] Define an initial state object that includes fields for a user's name, email, and password.
+- [ ] Create action types for updating each field (e.g., UPDATE_NAME, UPDATE_EMAIL, UPDATE_PASSWORD).
+- [ ] Write action creator functions for each field update action. These functions should accept a payload and return an object with the corresponding action type and payload.
+- [ ] Implement a reducer that handles each field update action. Update the appropriate field in the state object with the new value from the action payload.
+- [ ] In the FormReducer component, use the useReducer hook to manage the form state using your defined reducer and initial state.
+- [ ] Create input fields for the user's name, email, and password. Connect these inputs to the respective state fields using the value attribute and the onChange event.
+- [ ] Add a submit button to the form. When clicked, the button should console log the current form state.
+
+
+
+
 ### Day 21 August 2023
 Reading resources:
 - [ ] [React Context](https://legacy.reactjs.org/docs/context.html)
