@@ -17,6 +17,8 @@ Tasks:
 - [ ] Use Zustand to manage the state of the form
 - [ ] Use Zustand to manage the state of the list
 
+---
+
 ### Day 23 August 2023
 Reading resources:
 - [x] [Zustand](https://github.com/pmndrs/zustand)
@@ -26,6 +28,8 @@ Tasks:
 - [x] Create a store using Zustand to manage a piece of state. Define initial state and basic actions to update the state.
 - [x] Use the useStore hook to access and display the state in a component.
 - [x] Implement actions in the store that allow modifying the state in response to user interactions.
+
+---
 
 ### Day 22 August 2023
 Reading resources:
@@ -43,7 +47,7 @@ Tasks:
 - [x] Add a submit button to the form. When clicked, the button should console log the current form state.
 
 
-
+---
 
 ### Day 21 August 2023
 Reading resources:
@@ -57,7 +61,7 @@ Tasks:
 - [x] Implement a simple counter application using React Context to manage the count state across components.
 
 
-
+---
 
 ### Day 20 August 2023
 Reading resources:
