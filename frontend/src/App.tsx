@@ -2,7 +2,6 @@ import './App.css'
 import PersonCard from "./PersonCard.tsx";
 
 
-
 type Person = {
     name: string
     age: number
@@ -33,7 +32,7 @@ function App() {
     return (
         <div className="App">
             {persons.map((person, index) => (
-                <PersonCard key={index} person={person}/>
+                <PersonCard key={index} person={person} />
             ))}
         </div>
     )
