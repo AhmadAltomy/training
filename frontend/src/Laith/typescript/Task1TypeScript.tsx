@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable prefer-const */
 /* eslint-disable @typescript-eslint/no-unused-vars */
