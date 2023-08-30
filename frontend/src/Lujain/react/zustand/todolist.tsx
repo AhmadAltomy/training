@@ -72,13 +72,12 @@ function TodoList() {
     };
 
     return (
-        <div className='container'>
+        <div className='todo-container'>
             <h1>Todo list</h1>
 
             <div className="add-note">
                 <Form.Item
                     name="note"
-                    label="Note"
                     rules={[
                         {
                             required: true,
@@ -93,19 +92,27 @@ function TodoList() {
 
             <div className="notes-list">
                 {todos.map((todo) => (
-                    <div key={todo.id}>
+                    <div key={todo.id} className='list-item'>
                         <Checkbox
                             checked={todo.done}
                             onChange={() => toggleTodo(todo.id)}
                         >
-                            {editItemId === todo.id ? (
-                                <Input
-                                    value={editedText}
-                                    onChange={(e) => setEditedText(e.target.value)}
-                                />
-                            ) : (
-                                todo.text
-                            )}
+                            <span
+                                style={{
+                                    textDecoration: todo.done ? 'line-through' : 'none',
+                                    color: todo.done ? 'gray' : 'black',
+                                }}
+                            >
+
+                                {editItemId === todo.id ? (
+                                    <Input
+                                        value={editedText}
+                                        onChange={(e) => setEditedText(e.target.value)}
+                                    />
+                                ) : (
+                                    todo.text
+                                )}
+                                </span>
                         </Checkbox>
                         {editItemId === todo.id ? (
                             <Button onClick={() => handleEditSubmit(todo.id)}>Submit</Button>
