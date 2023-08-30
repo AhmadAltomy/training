@@ -16,3 +16,28 @@ export default function Index() {
         </nav>
     );
 }
+
+
+// put this in app.tsx
+// import './App.css'
+// import Counter from './Lujain/react/zustand/Counter';
+// import TodoList from './Lujain/react/zustand/todolist';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Index from './Lujain/react/zustand';
+
+// function App() {
+
+
+//     return (
+    
+//         <BrowserRouter>
+//             <Index></Index>
+//             <Routes>
+//                 <Route path="/counter" element={<Counter />} />
+//                 <Route path="/todolist" element={<TodoList />} />
+//             </Routes>
+//         </BrowserRouter>
+//     )
+// }
+
+// export default App
