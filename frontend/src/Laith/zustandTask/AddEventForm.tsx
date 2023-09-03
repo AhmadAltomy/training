@@ -14,7 +14,7 @@ const AddEventForm: React.FC = () => {
     addEvent(newEvent);
     Modal.success({ content: 'Event added successfully!' });
   };
-
+ 
   return (
     <Form onFinish={onFinish}>
       <Form.Item label="Title" name="title">
