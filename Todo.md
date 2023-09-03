@@ -1,5 +1,11 @@
 # Todo List
 
+
+### Day 03 Sep 2023
+Reading resources
+- [ ] [ant-design](https://ant.design/components/layout)
+- [ ] [Ant Design Tables](https://ant.design/components/table)
+
 ### Day 27 August 2023
 Reading resources:
 - [ ] [Zustand](./zustand.md)
